@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <link rel="stylesheet" href="./style/custom-header.css">
+    <title>Document</title>
+</head>
+<body class="gradient">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./cadastro.html">Cadrastre-se</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/imagem-qualquer.webp" alt="produto 1" class="d-block" style="width:100%; height: -30%;">
+        <div class="carousel-caption">
+          <h3>Seja bem-vindo(a)</h3>
+          <p>We had such a great time in LA!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/arvore.jpg" alt="produto 2" class="d-block" style="width:100%; height: -50%;">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="./images/buraco-negro-m87..webp" alt="produto 3" class="d-block" style="width:100%; height: -50%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p>We love the Big Apple!</p>
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                   <h2>Sobre mim</h2>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur nulla ut nisl fringilla luctus. Vestibulum ultrices faucibus risus, et consequat ipsum aliquam vitae. Vivamus pulvinar eros at erat auctor, in porta diam ultricies. Aliquam eget lobortis ipsum. Quisque rutrum pulvinar ullamcorper. Nam orci massa, lacinia et orci nec, viverra hendrerit ligula. Sed at convallis leo. In hac habitasse platea dictumst. Nullam ac velit porttitor, suscipit ante in, tempus est. Nam eu nulla a arcu ornare pellentesque.</p>
+                   <a class="btn btn-lg btn-success">Botão</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--<div class="container">
+        <div class="row">
+            Largura da área dividido por 12
+            <div class="col-md-5 col-sm-12"> Linha 1 - Coluna 1</div>
+            <div class="col-md-7 col-sm-12"> Linha 1 - Coluna 2</div>
+        </div>
+        <div class="row">
+            <div class="col">Linha 2 - Coluna 1</div>
+        </div>
+        <div class="row">
+            <div class="col">Linha 3 - Coluna 1</div>
+            <div class="col">Linha 3 - Coluna 2</div>
+            <div class="col">Linha 3 - Coluna 3</div>
+        </div>
+    </div>-->
+
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Produtos</h2>
+
+                    <div class="card">
+                        <img src="./images/produto-1.webp" alt="Imagem Exemplo" class="img-fluid-1">
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/produto-2.webp" alt="Imagem Exemplo" class="img-fluid-2">
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/produto-3.webp" alt="Imagem Exemplo" class="img-fluid-3">
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver produto</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea  class="form-control" name="" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Aceitar</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>P</td>
+                                <td>R$ 100</td>
+                            </tr>
+                            <tr>
+                                <td>M</td>
+                                <td>R$ 200</td>
+                            </tr>
+                            <tr>
+                                <td>G</td>
+                                <td>R$ 300</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+ 
+        <!-- Segundo Modal-->
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 2</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                    <div class="modal-body">
+                        <h6>Confira o tamanho e os preços</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Tamanho</th>
+                                    <th>Valor</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>P</td>
+                                        <td>R$ 100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>M</td>
+                                        <td>R$ 200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>G</td>
+                                        <td>R$ 300</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+        
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+ 
+       <!-- Terceiro Modal-->
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 3</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                    <div class="modal-body">
+                        <h6>Confira o tamanho e os preços</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Tamanho</th>
+                                    <th>Valor</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>P</td>
+                                        <td>R$ 100</td>
+                                    </tr>
+                                    <tr>
+                                        <td>M</td>
+                                        <td>R$ 200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>G</td>
+                                        <td>R$ 300</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+        
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+
+    <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
